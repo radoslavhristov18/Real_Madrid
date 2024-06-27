@@ -1,7 +1,7 @@
 h1{
     text-align: center;
-    text-decoration: underline;
-    color: rgb(213, 146, 13)
+    color: rgb(213, 146, 13);
+    font-family: fantasy;    
 }
 .container {
     display: flex;
@@ -14,10 +14,8 @@ h1{
 }
 h2 {
     margin: 0 0 10px 0;
-    color: lightblue;
-}
-p {
-    margin: 0 0 10px 0;
+    color: rgb(213, 146, 13);
+    font-family: fantasy;
 }
 table, th, td {
     border: 2px solid rgb(201, 172, 26);
@@ -29,8 +27,8 @@ th, td {
 }
 figcaption{
     margin-top: 30px;
-    color: lightblue;
-    font-size: 20px;
+    color: rgb(213, 146, 13);
+    font-size: 25px;
 }
 body{
     background-image:url('background1.jpg') ;
@@ -39,19 +37,20 @@ body{
     background-attachment: fixed;
 }
 th{
-    background-color: rgb(147, 102, 162);
+    background-color: rgb(213, 146, 13);
     color: black;
 }
 p{
-    color: lightblue;
+    color: white;
     font-size: 20px;
+    margin: 0 0 10px 0;
 }
 a{
-    color: lightblue;
-    font-size: 20px;
+    color: white;
+    font-size: 35px;
 }
 td{
-    color: lightblue;
+    color: white;
     font-size: 19px;
 }
 .tooltip {
@@ -78,4 +77,12 @@ td{
 
 .tooltip:hover .tooltip-content {
     display: block;
+}
+h3 {
+    color: rgb(213, 146, 13);
+    font-family: fantasy;
+    margin-top: 50px;
+}
+.closer{
+    margin-top: -30px;
 }
