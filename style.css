@@ -31,7 +31,7 @@ figcaption{
     font-size: 25px;
 }
 body{
-    background-image:url('background1.jpg') ;
+    background-image:url('./images/background1.jpg') ;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
